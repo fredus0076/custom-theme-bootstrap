@@ -1,0 +1,16 @@
+
+
+// 1. Include any default variable overrides here
+@import './scss/custom';
+
+// 2. Include remainder of required Bootstrap stylesheets
+@import './vendor/bootstrap/bootstrap.scss';
+
+// Changer le path de la webfonts
+// $fa-font-path           : "./webfonts" !default; 
+// 3 import fontawesome
+@import "./vendor/fontawesome/scss/fontawesome.scss";
+@import "./vendor/fontawesome/scss/regular.scss";
+
+// import custom SCSS
+@import "./scss/mycustom.scss";
